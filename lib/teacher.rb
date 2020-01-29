@@ -4,7 +4,6 @@ class Teacher < User
 
   def teach
     #return a random member of KNOWLEDGE array using #sample
-    
-    
+    KNOWLEDGE.sample
   end
 end
